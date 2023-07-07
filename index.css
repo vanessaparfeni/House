@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(IMG/backgr.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
+
+}
+
+header {
+    width: 1298px;
+    height: 60px;
+    display: flex;
+    margin: 30px auto 0 auto;
+}
+
+nav {
+    margin: 30px auto 0 auto;
+}
+
+nav a {
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 150px auto 0 auto;
+    font-size: 64px;
+    font-family: Plus Jakarta Sans;
+}
+
+p {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin: 20px auto 0 auto;
+}
+
+header button {
+    margin: 10px;
+    justify-content: flex-end;
+    width: 165px;
+    height: 42px;
+    top: 21px;
+    left: 1203px;
+    padding: 11px 20px 11px 20px;
+    border-radius: 50px;
+    gap: 10px;
+    color: white;
+    background-color: #27563A;
+}
+
+.first {
+    margin: 10px;
+    width: 78px;
+    height: 42px;
+    top: 21px;
+    left: 1117px;
+    padding: 11px 20px 11px 20px;
+    border-radius: 50px;
+    gap: 10px;
+    color: white;
+    background-color: transparent;
+}
+
+header img {
+    width: 197px;
+    height: 29px;
+    top: 28px;
+    left: 75px;
+    margin: 25px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+form {
+    position: relative;
+    margin: 0 auto;
+    border-radius: 50px;
+    width: 675px;
+    height: 62px;
+    flex-shrink: 0;
+}
+
+input {
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+    border: 2px solid #7BA7AB;
+    border-radius: 5px;
+    outline: none;
+    background: #ffffff;
+    color: #774f4f;
+}
+
+button {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    background: #27563A;
+    border-radius: 0 5px 5px 0;
+    content: url(IMG/search.png);
+
+}
+
+button::before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #F9F0DA;
+    cursor: pointer;
+}
